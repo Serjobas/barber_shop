@@ -1,0 +1,156 @@
+body {
+    color: white;
+    font-family: PT Sans Narrow;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* TOP */
+
+.top-menu {
+    background-color: black;
+    padding: 0
+}
+
+.top-navigation {
+    float: left;
+}
+
+.top-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.top-navigation ul li {
+    display: inline-block;
+}
+
+.top-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.top-navigation ul li a {
+    font-size: 16px;
+    display: block;
+    color: white;
+    padding: 20px 20px;
+}
+
+.top-navigation ul li a:hover {
+    background-color: #e5e5e5;
+}
+
+.login-enter a {
+    display: block;
+    float: right;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+/* MIDDLE */
+
+.content {
+    background: url(img/bg.jpg) no-repeat top center;
+    background-color: black;
+    height: 1550px;
+    padding:1px;
+}
+.logo{
+    background: url(img/logo.png) no-repeat;
+    width:370px;
+    height:150px;
+    margin: 70px auto;
+}
+.features-section{
+    float: left;
+    width: 300px;
+    text-align:center;
+    margin-right:15px;
+}
+.features-section:last-child{
+    margin-right:0
+}
+.features{
+    margin-bottom:80px;
+}
+
+.index-block1{
+    padding:50px 80px;
+    background:#e5e5e5;
+    color: black;
+    margin:40px 0;
+    
+}
+.index-block1 .left-side{
+    width: 380px;
+    float:left;
+}
+.index-block1 .left-side p{
+    font-size:14px;
+    max-width: 300px;
+    margin-bottom: 11px;
+    line-height: 20px;
+}
+.index-block1 .left-side .custom-news .date{
+    color:gray;
+    font-size:13px;
+}
+.index-block1 .left-side .custom-news{
+    margin:35px 0;
+}
+.index-block1 .left-side .news-block{
+    
+}
+.index-block1 .button {
+    display:inline-block;
+    font-size:14px;
+    padding:15px 34px;
+    background: black;
+}
+.index-block1 .right-side{
+    width: 300px;
+    float:right;
+}
+
+/*left side */
+.index-block1 .right-side .gallery-image{
+    background:url(img/index-block-img.jpg) no-repeat;    width:280px;
+    height:160px;
+    margin:42px 0;
+    border: 3px solid white;
+}
+.index-block1 .right-side .button-back{
+    margin-right:50px;
+}
+.index-block1 .left-side .contact-info p{
+    margin:30px 0;
+    line-height:30px;
+}
+.index-block1 .left-side .button-recal{
+    margin-left:25px;
+}
